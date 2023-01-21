@@ -1,0 +1,30 @@
+{
+  "name": "@aja/core",
+  "version": "1.0.0",
+  "description": "Aja is the ultimate Discord bot for server administration; with its cutting-edge auto-moderation abilities, Aja can easily identify and eliminate spam, offensive messages, and other unwanted content, keeping your server clean and safe. But that's not all, Aja also has top-notch security features that will protect your server from raids and other malicious activities, while also providing detailed logs and reports for your convenience. But, Aja isn't just a moderation and security bot, it also comes with a variety of powerful administration tools, like, custom commands, a leveling system, and personalized welcome messages, that make managing your server a breeze, Aja can entertain your community with ease. Say goodbye to spam, raids, and other unwanted activities and hello to a smooth, enjoyable experience for your community with Aja. Try it now and see the difference it makes!",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node ./check.handler.ts",
+    "dev": "ts-node-dev --transpile-only --respawn ./check.handler.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "eris": "^0.17.1",
+    "mongoose": "^6.8.3",
+    "readline": "^1.3.0",
+    "vm": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.11.18",
+    "ora": "^6.1.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
